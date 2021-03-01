@@ -1,0 +1,143 @@
+
+.show_discition
+{
+	width: 85%;
+	height: auto;
+	margin: 0px auto;
+	border-radius: 5px;
+	margin-top: 5px;
+	background-color: #fff;
+}
+
+.col-md-12
+{
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	line-height: 40px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 18px;
+	color: black;
+	padding-left: 20px;
+	border-bottom:1px solid #6666;
+}
+
+.laptop_content
+{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: block;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.laptop_content .left_img
+{
+	width: 35%;
+	height: auto;
+	text-align: center;
+	margin: auto auto;
+	float: left;
+}
+
+.laptop_content .right_ndung
+{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding-left: 40px;
+
+}
+
+.right_ndung .tenlt
+{
+	width:100%;
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+.tenlt h3
+{
+	color: red;
+	font-weight: bold;
+	font-size: 21px;
+}
+.right_ndung .ndung
+{
+	width: 100%;
+	height: 280px;
+}
+
+.ndung p
+{
+	width: 100%;
+	height:auto;
+	font-size:21px;
+	margin-bottom: 5px;
+}
+
+.ndung .ttrang
+{
+	color: red;
+	font-weight: bold;
+}
+
+.ndung .dongia
+{
+	background-color: green;
+	color: white;
+	width: 75%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 7px;
+	margin-top: 30px;
+}
+
+.button
+{
+	width: 90%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 5px;
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.button .add_cart
+{
+	width: 45%;
+	height: 60px;
+	border-radius: 5px;
+	background-color: #383746;
+	text-decoration: none;
+	color: white;
+	margin-top: 0px;
+	margin-left: 0px;
+
+}
+
+.button .check_lap
+{
+	width: 45%;
+	height: 60px;
+	border-radius: 5px;
+	background-color: #db0006;
+	text-decoration: none;
+	margin-top: 0px;
+	color: white;
+
+}
+
+.sale_qr
+{
+	width: 25%;
+	height: auto;
+	float: right;
+}

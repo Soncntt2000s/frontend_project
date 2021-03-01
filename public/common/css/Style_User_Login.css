@@ -1,0 +1,123 @@
+/* Form Login & Register */
+.box-form-view {	
+	background-color: #fff;
+	margin: 100px auto;	
+	border-radius: 18px;
+	box-shadow:1px 3px 6px 3px rgba(0, 0, 0, 0.3);
+	height: 450px;
+	width: 60%;
+}
+
+.box_form_login 
+{
+	text-align:center;
+	margin: 100px auto;	
+	height: 300px;
+	width: 80%;
+}
+
+.box_form_login p
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: red;
+}
+
+.box_form_register
+{
+	text-align:center;
+	margin-top: 30px;
+	margin-left:150px;
+	width: 430px;
+	height: 350px;
+	border-radius: 18px;
+}
+
+.box_form_register p
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: red;
+}
+
+input[name="user"]
+{
+	display: block; 
+	margin: auto; 
+	margin-top: 15px;
+	padding: 8px 7px; 
+	border-right:: 1px solid #ccc; 
+	border-radius: 5px;
+	font-size: 15px; 
+	width: 300px; 
+	color: #555; 
+	max-width: calc(100% - 16px);
+}
+
+input[name="pass"]
+{
+	display: block; 
+	margin: auto; 
+	margin-top: 15px;
+	padding: 8px 7px; 
+	border: 1px solid #ccc; 
+	border-radius: 5px;
+	font-size: 15px; 
+	width: 300px; 
+	color: #555; 
+	max-width: calc(100% - 16px);
+}
+
+input[name="login_user_submit"] 
+{
+	margin-top: 15px; 
+	padding: 8px 15px; 
+	background-color: #428bca; 
+	border-radius: 8px;
+	color: #fff; 
+	border: 1px solid #428bca; 
+	font-size: 15px; 
+}
+
+input[name="login_user_submit"]:hover 
+{
+	cursor: pointer;
+	opacity: 0.9;
+	color:blue;
+	background-color: red;
+}
+
+
+.box_form_login a
+{
+	text-decoration:none;
+}
+
+.box_form_login a:hover
+{
+	color:red;
+}
+
+.box_form_register a
+{
+	text-decoration:none;
+}
+
+.box_form_register a:hover
+{
+	color:red;
+}
+
+.form-control
+{
+	margin-bottom: 5px;
+	border-bottom:1px solid black;
+}
+
+
+.checkbox {
+	width: 30%;
+	margin-left: 0;
+}

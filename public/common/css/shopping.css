@@ -1,0 +1,187 @@
+/*Shopping*/
+.shopping {
+	margin: 50px 30px;
+	display: flex;
+}
+
+/*shopping-box*/
+.shopping-box {
+	margin:0 20px;
+	position: relative;
+	min-height: 500px;
+	width: 80%;
+}
+
+.shopping-top {
+	margin: 0 0 10px 0;
+	display: flex;
+	width: 100%;
+}
+
+.shopping-top__homebtn {
+	align-items: center;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+    background-color:#dd2633;
+    color: #fff;
+	height: 50px;
+	width: 20%;
+}
+
+.shopping-top__Clearbtn {
+	position: absolute;
+	right: 0px;
+	align-items: center;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+    background-color: #aeaeae;
+    color: #fff;
+	height: 50px;
+	width: 20%;
+}
+
+/*Goods*/
+.shopping-goods {
+	display: flex;
+	background-color: #fff;
+	margin: 20px 0;
+	height: 200px;
+}
+
+.shopping-goods-img {
+	margin: auto 20px;
+	height: 120px;
+	width: 25%;
+}
+
+
+.shopping-goods-info {
+	display: flex;
+	flex-direction: column;
+	padding: 40px 0;
+	width: 50%;
+}
+
+ 
+.shopping-goods-info-content {
+	flex-grow: 1;
+}
+
+
+.shopping-goods-info-delete {
+	display: flex;
+	height: 20px;
+	color: #ec565a;
+}
+
+.shopping-goods-info-delete__img {
+	height: 20px;
+}
+
+.shopping-goods-info-math {	
+	display: flex;
+	margin: auto 0;
+	height: 50px;
+	width: 25%;
+}
+
+.shopping-goods-info-math__minus {
+	border-radius: 5px 0 0 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f1f1f1;
+	height: 50px;
+	width: 50px;
+}
+
+.shopping-goods-info-math__number {
+	display: flex;
+	border: 1px solid #f1f1f1;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	height: 50px;
+	width: 50px;
+}
+
+.shopping-goods-info-math__plus {
+	border-radius:  0 5px 5px 0 ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f1f1f1;
+	height: 50px;
+	width: 50px;
+}
+
+
+/*pay*/
+.pay {
+	border-radius: 8px;
+	min-height: 500px;
+	background-color: #fff;
+	width: 25%;
+}
+
+.pay-provisional  {	
+	margin-bottom: 20px;
+	position: relative;
+	padding: 20px 20px;
+	display: flex;
+	width: 100%;
+	height: 150px;
+}
+
+.pay-provisional p {
+	padding: 8px 0;
+}
+
+.pay-provisional-right {
+	text-align: right;
+	position: absolute;
+	right: 20px;
+}
+
+.pay-buy {
+	margin: 0 auto;
+	height: 160px;
+	width: 90%;
+}
+
+.pay-buy-login {	
+	border-radius: 8px;
+	margin:10px 0;
+	background-color: #d00a00;
+	height: 60px;
+}
+
+.pay-buy-login a {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+
+.pay-buy-unlogin {
+	border-radius: 8px;
+	margin:10px 0;
+	background-color: #fcf3d4;
+	height: 50px;
+}
+
+.pay-buy-unlogin a {
+	justify-content: center;
+	display: flex;
+	align-items: center;	
+	width: 100%;
+	height: 100%;
+	color: #333;
+}
+
+
+

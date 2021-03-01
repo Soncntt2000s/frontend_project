@@ -1,0 +1,64 @@
+/* CSS Document */
+
+.view_cart
+{
+	width: 85%;
+	height: 500px;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+.col-md-12
+{
+	width: 85%;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #1d769c;
+	line-height: 40px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 18px;
+	color: black;
+}
+
+.del_lap
+{
+	width: 48%;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #337ab7;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+
+.del_lap:hover
+{
+	background-color: red;
+	cursor: pointer;
+	color: black;
+}
+.update_lap
+{
+	width: 48%;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #337ab7;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	margin-left: 6px;
+}
+
+.update_lap:hover
+{
+	background-color: red;
+	cursor: pointer;
+	color: black;
+}
+
